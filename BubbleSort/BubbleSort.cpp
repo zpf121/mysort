@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
 template <typename T>
@@ -34,10 +34,9 @@ void BubbleSort(T arr[], int n)
 int main() {
 	int arr[] = {88,66,2,5,95,4,46,27};
 
-	BubbleSort(arr, sizeof(arr) / sizeof(arr[0]));
+	//BubbleSort(arr, sizeof(arr) / sizeof(arr[0]));
 
-	system("pause");
-	
+	cout << "打赏";
+
 	return 0;
-
 }
