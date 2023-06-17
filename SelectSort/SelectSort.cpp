@@ -3,7 +3,7 @@
 using namespace std; 
 
 template <typename T>
-void SelectSort(vector<T> v)
+void SelectSort(vector<T> &v)
 {
     if (v.size() <= 1)  return;
     int littlest = 0;

@@ -3,7 +3,7 @@
 using namespace std;
 
 template <typename T>
-void InsertSort(vector<T> v)
+void InsertSort(vector<T> &v)
 {
     for (int i = 1; i < v.size(); i++)
     {
