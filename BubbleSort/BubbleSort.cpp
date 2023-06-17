@@ -34,9 +34,8 @@ void BubbleSort(T arr[], int n)
 int main() {
 	int arr[] = {88,66,2,5,95,4,46,27};
 
-	//BubbleSort(arr, sizeof(arr) / sizeof(arr[0]));
+	BubbleSort(arr, sizeof(arr) / sizeof(arr[0]));
 
-	cout << "打赏";
-
+	system("pause");
 	return 0;
 }
